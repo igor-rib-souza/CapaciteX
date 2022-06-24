@@ -1,0 +1,19 @@
+HTML - Composto por diversos elementos identificados por tags
+
+<p>Juliete canta muito</p> exemplo de um elemento que contém um parágrafo
+
+Conteúdo: o que vem dentro da tag
+
+Elemento: o contéudo da tag e a sua própria tag de abertura e de fechamento
+
+Aninhamento: inserir elementos dentro de outros elementos
+
+Elementos Inline: elementos que não farão surgir outra linha de texto quando utilizados. Ex: <em>eu</em><em>tu</em>
+Elementos Outline: elementos que farão surgir outra linha de texto quando utilizados. Ex:<p>eu</p><p>tu</p>
+
+Obs: Alguns elementos são compostos por apenas uma tag ao invés de duas (a de abertura e fechamento)
+
+Ex: <img src="https://link.com/coisa/outracoisa/foto.jpg">
+
+
+
