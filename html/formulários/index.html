@@ -53,27 +53,31 @@
     </style>
 </head>
 <body>
+
     <form action="/files" method="post">
-        <ul>
-            <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-            </li>
+        <fieldset>
+            <legenda>Envio de mensagem<br></legenda>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
 
-            <li>
-                <label for="mail">E-mail</label>
-                <input type="email" id="mail" name="user_email">
-            </li>
+                <li>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
 
-            <li>
-                <label for="msg">Message</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </li>
+                <li>
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
 
-            <li>
-                <button type="submit">Send your message</button>
-            </li>
-        </ul>
+                <li>
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </fieldset>
     </form>
 </body>
 </html>
